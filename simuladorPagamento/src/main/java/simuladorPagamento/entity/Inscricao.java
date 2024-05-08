@@ -27,7 +27,13 @@ public class Inscricao {
 
     @Column(name = "alunoID")
     private Long alunoId;
+    
+    @Column(name = "nome_aluno")
+    private String nome_aluno;
 
+    @Column(name = "titulo_curso")
+    private String titulo_curso;
+    
     @Column(name = "data_cadastro")
     private Date dataCadastro;
 
